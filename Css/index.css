@@ -1,0 +1,81 @@
+body{
+    background: #000;
+}
+     h1{
+    color: #87ceeb;
+    font-family: monospace;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+     h2{
+    color: #87cefa;
+    font-family: monospace;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+     h3{
+    color: #00bfff;
+    font-family: monospace;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+     h4{
+    color: #1e90ff;
+    font-family: monospace;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+     h5{
+    color: #666;
+    font-family: monospace;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+     h6{
+    color: #666;
+    font-family: monospace;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.background{
+    table-layout: fixed;
+    border-spacing: 0;
+}
+.background td{
+    padding:  0;
+}
+.lava, .actor{
+    background: #cf1020;
+}
+.wall{
+    background: url(http://rs133.pbsrc.com/albums/q59/jfulkerson0032/11/pastel-rainbow-bg-554430.gif~c200);
+    background-size: cover;
+    border: solid 3px #008080;
+    box-sizing: content-box;
+}
+.actor{
+    position: absolute;
+}
+.coin{
+    background: #e2e838;
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+}
+.player{
+    background: url(http://media.giphy.com/media/ToMjGpskMg4EzjF3vzO/giphy.gif);
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 10px 10px 5px 5px;
+}
+.lost .player{
+    background: #a04040;
+}
+.won .player {
+    background: url(https://i.gifer.com/embedded/download/1UhH.gif);
+    background-size: cover;
+}
+
+.game{
+    position: relative;
+    overflow: hidden;
+}
